@@ -1,5 +1,5 @@
 {% set name = "mcgrad" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mcgrad-{{ version }}.tar.gz
-  sha256: cde74ba5285dd834e109affd184b9d72cf4fee84fd26bac3c5347f5b69a1e5ab
+  sha256: fad228f4f86c901e7ad88c23d55025aba3f37cd2d038e1ea27207bf77a7f99b5
 
 build:
   noarch: python
