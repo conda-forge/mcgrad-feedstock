@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -33,6 +33,7 @@ requirements:
     - cffi >=1.15.0
     - ax-platform >=1.2.1
     - psutil >=7.1.0
+    - folktables >=0.0.12
 
 test:
   imports:
